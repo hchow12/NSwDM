@@ -1,0 +1,48 @@
+C1P123_D2_MA1.40_mA0.000_MB1.40_mB0.000_RA12.0_nA0.8_spin-2.0_e0.0_rp8.0_pA0.00_pB0.00.txt
+ Binary Configuration 
+==================================================
+
+Star A:			Star B:
+--------------------------------------------------
+Total Mass:	        1.40000	        1.40000 (solar mass)
+Normal Matter (NM) Mass:     2067.27505	2067.27505 (m)
+Dark Matter (DM) Mass:       0.00000	0.00000 (m)
+DM/Total Mass ratio:	     0.00000	0.00000 
+DM/NM Mass ratio:	     0.00000	0.00000 
+Binary Mass ratio:	     1.00000
+Star's Reference radius: 12.0 (km)
+Star's Rotation number: -2.0 
+--------------------------------------------------
+
+ Orbital Configurations 
+--------------------------------------------------
+Conservative PN terms:		1
+First Order PN:			1
+Second Order PN:		1
+Third Order PN:			1
+Disspiative 2.5PN terms:	1
+
+Presence of Yukawa force:	0
+Yukawa coupling number:		0.01000 (repulsive)
+Yukawa mediator mass range:	20.00000 (km)
+
+Initial Binary separation:	96.00000 (km)
+
+==================================================
+ Initial values 
+==================================================
+
+Star A:			Star B:
+--------------------------------------------------
+a1:    12035.72134	a1:    12035.72134 (m)
+a2:    11982.07989	a2:    11982.07989 (m)
+a3:    11982.39305	a3:    11982.39305 (m)
+spin:  2.04531e-06	spin:  2.04531e-06 (rad/m)
+vort:  2.04529e-06	vort:  2.04529e-06 (rad/m)
+--------------------------------------------------
+
+ Orbital parameters 
+--------------------------------------------------
+orbital separation:  96000.00000 (m)
+orbital frequency:   2.04531e-06 (m)
+==========================END==========================
