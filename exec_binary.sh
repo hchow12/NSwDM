@@ -5,12 +5,20 @@ cd binary/
 echo "Compiling with gcc..."
 gcc -o run binary_conf.c evolve.c -lgsl -lgslcblas -lm 
 
+# Check if the folder "binary/data/" exist
+if [ ! -d "data" ]
+then
+	mkdir data data/dm data/dark data/bh data/bh/no_dark data/bh/dark
+fi
+
+
 echo "Evolving the binary..."
 ./run
 
 # Move the binary configurations file to folder "head/" in ../
 echo "Saving the binary configurations file..."
 mv HEAD* ../head/
+
 
 # Copy data in binary/ to the folder "data/" in ../
 cp -r data ../
